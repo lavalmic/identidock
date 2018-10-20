@@ -9,4 +9,4 @@ COPY cmd.sh /
 EXPOSE 9090 9191
 USER uwsgi
 
-CMD sudo chmod +x cmd.sh && cmd.sh
+CMD ["/cmd.sh"]
