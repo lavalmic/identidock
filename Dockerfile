@@ -9,4 +9,4 @@ COPY cmd.sh /
 EXPOSE 9090 9191
 USER uwsgi
 
-CMD ["cat /cmd.sh"]
+CMD ["ls -l"]
